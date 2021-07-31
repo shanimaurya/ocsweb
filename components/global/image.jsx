@@ -8,4 +8,4 @@ export default function Images(props) {
         alt={details.text}
       />
     );
-  }git
+  }
