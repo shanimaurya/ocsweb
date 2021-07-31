@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css';
-import feature from '../styles/Feature.module.css';
+// import styles from '../styles/Home.module.css';
+import styles from '../styles/Feature.module.css';
 import Header from '../components/common/header';
 import Footer from '../components/common/footer';
 import Table from '../components/common/table';
@@ -35,7 +35,7 @@ function Features(props) {
         <h1 className={styles.title}>
           Our Feature Products
         </h1>
-       <div className={feature.blog}>
+       <div className={styles.blog}>
             <Table props={props?.data} />
        </div>
         

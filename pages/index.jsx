@@ -15,12 +15,26 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to ocsweb experts
-        </h1>
+        <div className={styles.banner}>
+          <h1 className={styles.title}>
+            Welcome to OCSWEB 
+          </h1>
+          <p className={styles.description}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          </p>
+          <h4 className={styles.subtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </h4>
+        </div>
+       <div className={styles.bannercta}>
+         <button className={styles.bannerBtn}>
+            <span>Our Services</span>
+         </button>
+         <button className={styles.bannerBtn}>
+            <span>Our Workshop</span>
+         </button>
+       </div>
       </main>
 
-     <Footer />
+     {/* <Footer /> */}
     </div>
   )
 }
